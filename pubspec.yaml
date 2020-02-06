@@ -1,0 +1,33 @@
+name: flutter_package_hotel
+description: A new Flutter package.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_package_network:
+    git:
+      url: https://github.com/BaoBaoJianqiang/flutter_package_network.git
+
+  flutter_plugin_battery_status:
+    git:
+      url: https://github.com/BaoBaoJianqiang/flutter_plugin_battery_status.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  assets:
+    - hotel_images/c5.png
+    - assets/network_hotel.json
