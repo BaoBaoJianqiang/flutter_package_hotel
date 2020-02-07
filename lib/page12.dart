@@ -81,9 +81,7 @@ class _Page12State extends State<Page12> {
             Container(
                 width: 160.0,
                 height: 20.0,
-                child: RaisedButton(
-                  child: Text('电池状态: $_chargingStatus'),
-                )
+                child: Text('电池状态: $_chargingStatus'),
             )
           ]
       ),

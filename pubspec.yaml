@@ -14,10 +14,13 @@ dependencies:
   flutter_package_network:
     git:
       url: https://github.com/BaoBaoJianqiang/flutter_package_network.git
+      tag: t1.1
 
   flutter_plugin_battery_status:
     git:
       url: https://github.com/BaoBaoJianqiang/flutter_plugin_battery_status.git
+      #ref: b1.1
+      tag: t1.1
 
 dev_dependencies:
   flutter_test:
